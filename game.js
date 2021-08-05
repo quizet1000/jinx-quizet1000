@@ -46,6 +46,46 @@ let questions = [
         answer: '4',
     },
     {
+        question: 'What is the name of the universe Ant-Man travels to when he goes subatomic?',
+        choice1: 'Virtual Reality',
+        choice2: 'Quantum Fiction',
+        choice3: 'Narnia',
+        choice4: 'Quantum Realm',
+        answer: 4,
+    },
+    {
+        question: 'which of these is not a continent?',
+        choice1: 'Europe',
+        choice2: 'Japan',
+        choice3: 'Asia',
+        choice4: 'North America',
+        answer: 2,
+    },
+    {
+        question: 'which animal is said to always land on their feet?',
+        choice1: 'Dogs',
+        choice2: 'Cats',
+        choice3: 'Rats',
+        choice4: 'Wolfs',
+        answer: 2,
+    },
+    {
+        question: 'The types of network protocols include?',
+        choice1: 'UDH',
+        choice2: 'TCN',
+        choice3: 'SMP',
+        choice4: 'SMTP',
+        answer: 4,
+    },
+    {
+        question: 'What are the main components of steel: iron and .......?',
+        choice1: 'copper',
+        choice2: 'carbon',
+        choice3: 'broze',
+        choice4: 'silver',
+        answer: 2,
+    },
+    {
         question: 'There are _ major types of printer?',
         choice1: '4',
         choice2: '3',
@@ -53,6 +93,72 @@ let questions = [
         choice4: '1',
         answer: 2,
     },
+    {
+        question: 'What famous wall went up in 1961 and came down in 1989?',
+        choice1: 'Great Wall Of China',
+        choice2: 'Antonine Wall',
+        choice3: 'Berlin Wall ',
+        choice4: 'Wailing Wall',
+        answer: 3,
+    },
+    {
+        question: 'Ctrl+W is a shortcut key used to _?',
+        choice1: 'cut',
+        choice2: 'open some program files',
+        choice3: 'end',
+        choice4: 'close',
+        answer: 3,
+    },
+    {
+        question: 'How many is equivalent to a dozen?',
+        choice1: "14",
+        choice2: '10',
+        choice3: '12',
+        choice4: '16',
+        answer: 3,
+    },
+    {
+        question: 'Which vegetable is associated with Halloween?',
+        choice1: 'Carrot',
+        choice2: 'Turnip',
+        choice3: 'Grape',
+        choice4: 'pumpkin',
+        answer: 4,
+    },
+    {
+        question: 'what are termites noted for eating?',
+        choice1:  'Earth',
+        choice2:  'Insect',
+        choice3:  'Wood',
+        choice4:  'Rice',
+        answer: 3,
+    },
+    {
+        question: 'From which animal do we obtain bacon from?',
+        choice1: 'sheep',
+        choice2: 'pig',
+        choice3: 'cow',
+        choice4: 'chicken',
+        answer: 2,
+    },
+    {
+        question: 'which flower represents love?',
+        choice1: 'dandelion',
+        choice2: 'poppy',
+        choice3: 'rose',
+        choice4: 'lily',
+        answer: 3,
+    },
+    {
+        question: 'What do you call a person who was born in or is a citizen of finland?',
+        choice1: 'fan',
+        choice2: 'finn',
+        choice3: 'fin',
+        choice: 'finlander',
+        answer: 2,
+    },
+
+
     {
         question: 'Ctrl+W is a shortcut key used to _?',
         choice1: 'cut',
@@ -119,7 +225,7 @@ let questions = [
     }
 ]
 const SCORE_POINTS= 5
-const MAX_QUESTIONS =10
+const MAX_QUESTIONS =23
 
 startGame = () => {
     questionCounter = 0
